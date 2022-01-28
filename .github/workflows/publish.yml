@@ -38,6 +38,6 @@ jobs:
       # STEP 5
       - name: Publish Release
         uses: ncipollo/release-action@v1
-          with:
-            artifacts: "out/make/*.deb"
-            token: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          artifacts: "out/make/*.deb"
+          token: ${{ secrets.GITHUB_TOKEN }}
