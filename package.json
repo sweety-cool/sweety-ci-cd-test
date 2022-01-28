@@ -1,6 +1,6 @@
 {
   "name": "sweety-ci-cd-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sweety's App",
   "main": "index.js",
   "scripts": {
